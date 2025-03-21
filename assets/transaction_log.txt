@@ -1,0 +1,15 @@
+===================
+Trading done at: 2025-03-21 20:09:14.307287
+Executions: 
+Portfolio: {'NVS': {'price': 95.96376037597656, 'amount': 7.07, 'trailing_stop': 94.9832328853832}, 'AZN': {'price': 61.51098251342773, 'amount': 6.65, 'trailing_stop': 60.882482660029716}, 'AMGN': {'price': 282.7851867675781, 'amount': 1.09, 'trailing_stop': 279.89577676038544}, 'NVO': {'price': 120.4271240234375, 'amount': 1.03, 'trailing_stop': 119.19663758506282}, 'PFE': {'price': 25.88741874694824, 'amount': 3.77, 'trailing_stop': 25.622909252505387}, 'BMY': {'price': 47.08687973022461, 'amount': 1.36, 'trailing_stop': 46.60576081782623}}
+Portfolio value: 1681.42133600235
+===================
+Invested 1.36 shares in BMY for ~$64.03815643310547 total
+Invested 3.77 shares in PFE for ~$97.59556867599485 total
+Invested 1.03 shares in NVO for ~$124.03993774414063 total
+Invested 1.09 shares in AMGN for ~$308.2358535766602 total
+Invested 6.65 shares in AZN for ~$409.04803371429443 total
+Invested 7.07 shares in NVS for ~$678.4637858581543 total
+===================
+Trading start at: 2025-03-21 20:09:12.080237
+===================

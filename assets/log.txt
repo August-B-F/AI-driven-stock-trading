@@ -1,0 +1,23 @@
+===================
+Program ended at: 2025-03-21 20:21:00.594234
+===================
+Trading done at: 2025-03-21 20:21:00.594234
+Executing trades start at: 2025-03-21 20:20:58.666578
+Prediction done with 75 predictions at: 2025-03-21 20:20:58.666578
+Model prediction start at: 2025-03-21 20:15:33.681342
+Preprocessing done with 75 successes and 0 fails at: 2025-03-21 20:15:33.680342
+Preprocessing data start at: 2025-03-21 20:15:23.025115
+All CVS conversion done at: 2025-03-21 20:15:23.025115
+News data CSV conversion done with 0 fails and 23 successes
+News data CSV conversion done with 0 fails and 75 successes
+Historical data CSV conversion done with 0 fails and 75 successes
+Json to CSV conversion start at: 2025-03-21 20:15:02.225691
+Historical scraping done with 0 fails and 75 successes
+Historical scraping start at: 2025-03-21 20:14:22.459858
+Commodity scraping done with 0 fails and 23 successes
+Commodity scraping start at: 2025-03-21 20:13:13.880874
+News scraping done with 75 successes and 0 fails at: 2025-03-21 20:13:13.837075
+News scraping start at: 2025-03-21 20:11:44.588342
+===================
+Program started at: 2025-03-21 20:11:44.588342
+===================

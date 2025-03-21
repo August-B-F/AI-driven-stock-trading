@@ -1,0 +1,377 @@
+{
+    "0": {
+        "name": "abbott laboratories",
+        "ticker": "ABT",
+        "index": "1955"
+    },
+    "1": {
+        "name": "abbvie",
+        "ticker": "ABBV",
+        "index": "617"
+    },
+    "2": {
+        "name": "accenture",
+        "ticker": "ACN",
+        "index": "954"
+    },
+    "3": {
+        "name": "adobe",
+        "ticker": "ADBE",
+        "index": "507"
+    },
+    "4": {
+        "name": "alibaba",
+        "ticker": "BABA",
+        "index": "700"
+    },
+    "5": {
+        "name": "alphabet",
+        "ticker": "GOOG",
+        "index": "833"
+    },
+    "6": {
+        "name": "amazon",
+        "ticker": "AMZN",
+        "index": "646"
+    },
+    "7": {
+        "name": "amd",
+        "ticker": "AMD",
+        "index": "306"
+    },
+    "8": {
+        "name": "amgen",
+        "ticker": "AMGN",
+        "index": "520"
+    },
+    "9": {
+        "name": "apple",
+        "ticker": "AAPL",
+        "index": "530"
+    },
+    "10": {
+        "name": "applied materials",
+        "ticker": "AMAT",
+        "index": "1729"
+    },
+    "11": {
+        "name": "asml",
+        "ticker": "ASML",
+        "index": "429"
+    },
+    "12": {
+        "name": "astrazeneca",
+        "ticker": "AZN",
+        "index": "1169"
+    },
+    "13": {
+        "name": "bank of america",
+        "ticker": "BAC",
+        "index": "1411"
+    },
+    "14": {
+        "name": "bhp group",
+        "ticker": "BHP",
+        "index": "903"
+    },
+    "15": {
+        "name": "bp",
+        "ticker": "BP",
+        "index": "210"
+    },
+    "16": {
+        "name": "bristol myers squibb",
+        "ticker": "BMY",
+        "index": "2050"
+    },
+    "17": {
+        "name": "broadcom",
+        "ticker": "AVGO",
+        "index": "839"
+    },
+    "18": {
+        "name": "caterpillar",
+        "ticker": "CAT",
+        "index": "1171"
+    },
+    "19": {
+        "name": "chevron",
+        "ticker": "CVX",
+        "index": "757"
+    },
+    "20": {
+        "name": "cisco",
+        "ticker": "CSCO",
+        "index": "529"
+    },
+    "21": {
+        "name": "coca cola",
+        "ticker": "KO",
+        "index": "866"
+    },
+    "22": {
+        "name": "comcast",
+        "ticker": "CMCSA",
+        "index": "746"
+    },
+    "23": {
+        "name": "conocophillips",
+        "ticker": "COP",
+        "index": "1510"
+    },
+    "24": {
+        "name": "costco",
+        "ticker": "COST",
+        "index": "651"
+    },
+    "25": {
+        "name": "danaher",
+        "ticker": "DHR",
+        "index": "723"
+    },
+    "26": {
+        "name": "eli lilly",
+        "ticker": "LLY",
+        "index": "896"
+    },
+    "27": {
+        "name": "exxon mobil",
+        "ticker": "XOM",
+        "index": "1125"
+    },
+    "28": {
+        "name": "meta",
+        "ticker": "META",
+        "index": "826"
+    },
+    "29": {
+        "name": "general electric",
+        "ticker": "GE",
+        "index": "1609"
+    },
+    "30": {
+        "name": "home depot",
+        "ticker": "HD",
+        "index": "997"
+    },
+    "31": {
+        "name": "honeywell",
+        "ticker": "HON",
+        "index": "983"
+    },
+    "32": {
+        "name": "hsbc holdings",
+        "ticker": "HSBC",
+        "index": "1304"
+    },
+    "33": {
+        "name": "ibm",
+        "ticker": "IBM",
+        "index": "312"
+    },
+    "34": {
+        "name": "intel",
+        "ticker": "INTC",
+        "index": "540"
+    },
+    "35": {
+        "name": "intuit",
+        "ticker": "INTU",
+        "index": "669"
+    },
+    "36": {
+        "name": "johnson and johnson",
+        "ticker": "JNJ",
+        "index": "1905"
+    },
+    "37": {
+        "name": "jpmorgan",
+        "ticker": "JPM",
+        "index": "1410"
+    },
+    "38": {
+        "name": "linde",
+        "ticker": "LIN",
+        "index": "524"
+    },
+    "39": {
+        "name": "lvmh",
+        "ticker": "LVMHF",
+        "index": "439"
+    },
+    "40": {
+        "name": "mastercard",
+        "ticker": "MA",
+        "index": "1062"
+    },
+    "41": {
+        "name": "mcdonald",
+        "ticker": "MCD",
+        "index": "834"
+    },
+    "42": {
+        "name": "merck",
+        "ticker": "MRK",
+        "index": "530"
+    },
+    "43": {
+        "name": "microsoft",
+        "ticker": "MSFT",
+        "index": "982"
+    },
+    "44": {
+        "name": "morgan stanley",
+        "ticker": "MS",
+        "index": "1444"
+    },
+    "45": {
+        "name": "netflix",
+        "ticker": "NFLX",
+        "index": "762"
+    },
+    "46": {
+        "name": "nike",
+        "ticker": "NKE",
+        "index": "423"
+    },
+    "47": {
+        "name": "novartis",
+        "ticker": "NVS",
+        "index": "886"
+    },
+    "48": {
+        "name": "novo nordisk",
+        "ticker": "NVO",
+        "index": "1244"
+    },
+    "49": {
+        "name": "nvidia",
+        "ticker": "NVDA",
+        "index": "635"
+    },
+    "50": {
+        "name": "oracle",
+        "ticker": "ORCL",
+        "index": "630"
+    },
+    "51": {
+        "name": "pepsico",
+        "ticker": "PEP",
+        "index": "755"
+    },
+    "52": {
+        "name": "pfizer",
+        "ticker": "PFE",
+        "index": "656"
+    },
+    "53": {
+        "name": "philip morris",
+        "ticker": "PM",
+        "index": "1346"
+    },
+    "54": {
+        "name": "qualcomm",
+        "ticker": "QCOM",
+        "index": "863"
+    },
+    "55": {
+        "name": "royal bank of canada",
+        "ticker": "RY",
+        "index": "1872"
+    },
+    "56": {
+        "name": "salesforce",
+        "ticker": "CRM",
+        "index": "1063"
+    },
+    "57": {
+        "name": "sanofi",
+        "ticker": "SNY",
+        "index": "640"
+    },
+    "58": {
+        "name": "sap",
+        "ticker": "SAP",
+        "index": "324"
+    },
+    "59": {
+        "name": "shell",
+        "ticker": "SHEL",
+        "index": "536"
+    },
+    "60": {
+        "name": "t mobile",
+        "ticker": "TMUS",
+        "index": "1057"
+    },
+    "61": {
+        "name": "tesla",
+        "ticker": "TSLA",
+        "index": "537"
+    },
+    "62": {
+        "name": "texas instruments",
+        "ticker": "TXN",
+        "index": "1809"
+    },
+    "63": {
+        "name": "thermo fisher scientific",
+        "ticker": "TMO",
+        "index": "2417"
+    },
+    "64": {
+        "name": "totalenergies",
+        "ticker": "TTE",
+        "index": "1398"
+    },
+    "65": {
+        "name": "toyota",
+        "ticker": "TM",
+        "index": "672"
+    },
+    "66": {
+        "name": "unilever",
+        "ticker": "UL",
+        "index": "874"
+    },
+    "67": {
+        "name": "union pacific corporation",
+        "ticker": "UNP",
+        "index": "2536"
+    },
+    "68": {
+        "name": "ups",
+        "ticker": "UPS",
+        "index": "2097"
+    },
+    "69": {
+        "name": "unitedhealth",
+        "ticker": "UNH",
+        "index": "1279"
+    },
+    "70": {
+        "name": "verizon",
+        "ticker": "VZ",
+        "index": "781"
+    },
+    "71": {
+        "name": "visa",
+        "ticker": "V",
+        "index": "435"
+    },
+    "72": {
+        "name": "walmart",
+        "ticker": "WMT",
+        "index": "760"
+    },
+    "73": {
+        "name": "walt disney",
+        "ticker": "DIS",
+        "index": "1124"
+    },
+    "74": {
+        "name": "wells fargo",
+        "ticker": "WFC",
+        "index": "1110"
+    }
+}
