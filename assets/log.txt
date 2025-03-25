@@ -1,3 +1,90 @@
+ 
+===================
+Program ended at: 2025-03-25 15:57:41.100109
+===================
+Prediction done with 75 predictions at: 2025-03-25 15:57:41.099109
+Model prediction start at: 2025-03-25 15:52:23.378144
+Preprocessing done with 75 successes and 0 fails at: 2025-03-25 15:52:23.378144
+Preprocessing data start at: 2025-03-25 15:52:20.066769
+Historical scraping done with 0 fails and 75 successes
+Historical scraping start at: 2025-03-25 15:52:08.232222
+===================
+Program started at: 2025-03-25 15:51:18.018144
+===================
+ 
+===================
+Program ended at: 2025-03-25 15:48:08.365941
+===================
+Trading done at: 2025-03-25 15:48:08.364886
+Executing trades start at: 2025-03-25 15:48:06.830586
+Prediction done with 75 predictions at: 2025-03-25 15:48:06.830586
+Model prediction start at: 2025-03-25 15:42:48.143774
+Preprocessing done with 75 successes and 0 fails at: 2025-03-25 15:42:48.143774
+Preprocessing data start at: 2025-03-25 15:42:45.573451
+===================
+Program started at: 2025-03-25 15:42:45.572451
+===================
+ 
+===================
+Program ended at: 2025-03-25 15:27:18.205213
+===================
+All CVS conversion done at: 2025-03-25 15:27:18.205213
+News data CSV conversion done with 0 fails and 23 successes
+News data CSV conversion done with 0 fails and 75 successes
+Historical data CSV conversion done with 0 fails and 75 successes
+Json to CSV conversion start at: 2025-03-25 15:26:56.866931
+Historical scraping done with 0 fails and 75 successes
+Historical scraping start at: 2025-03-25 15:26:37.969696
+===================
+Program started at: 2025-03-25 15:25:47.331355
+===================
+Historical scraping done with 0 fails and 2 successes
+Historical scraping start at: 2025-03-25 15:13:04.482838
+ 
+===================
+Program ended at: 2025-03-25 15:07:24.463156
+===================
+Trading done at: 2025-03-25 15:07:24.462156
+Executing trades start at: 2025-03-25 15:07:23.822645
+Prediction done with 75 predictions at: 2025-03-25 15:07:23.822645
+Model prediction start at: 2025-03-25 15:01:58.518058
+Preprocessing done with 75 successes and 0 fails at: 2025-03-25 15:01:58.517058
+Preprocessing data start at: 2025-03-25 15:01:48.071667
+All CVS conversion done at: 2025-03-25 15:01:48.071667
+News data CSV conversion done with 0 fails and 23 successes
+News data CSV conversion done with 0 fails and 75 successes
+Historical data CSV conversion done with 0 fails and 75 successes
+Json to CSV conversion start at: 2025-03-25 15:01:27.263117
+Historical scraping done with 0 fails and 75 successes
+Historical scraping start at: 2025-03-25 15:01:04.997152
+===================
+Program started at: 2025-03-25 15:00:13.274255
+===================
+ 
+===================
+Program ended at: 2025-03-25 14:47:42.187525
+===================
+------------------
+A fatal error happened at: 2025-03-25 14:47:42.186470
+Error: cost basis must be >= minimal amount of order 1
+------------------
+Executing trades start at: 2025-03-25 14:47:40.998470
+Prediction done with 75 predictions at: 2025-03-25 14:47:40.998470
+Model prediction start at: 2025-03-25 14:38:56.794806
+Preprocessing done with 75 successes and 0 fails at: 2025-03-25 14:38:56.794806
+Preprocessing data start at: 2025-03-25 14:38:42.644118
+All CVS conversion done at: 2025-03-25 14:38:42.644118
+News data CSV conversion done with 0 fails and 23 successes
+News data CSV conversion done with 0 fails and 75 successes
+Historical data CSV conversion done with 0 fails and 75 successes
+Json to CSV conversion start at: 2025-03-25 14:38:18.569219
+Historical scraping done with 0 fails and 75 successes
+Historical scraping start at: 2025-03-25 14:37:48.339859
+News scraping done with 75 successes and 0 fails at: 2025-03-25 14:36:53.556394
+News scraping start at: 2025-03-25 11:30:07.619299
+===================
+Program started at: 2025-03-25 11:30:07.618298
+===================
 ===================
 Program ended at: 2025-03-21 20:21:00.594234
 ===================

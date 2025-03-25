@@ -22,18 +22,16 @@ def get_historical_data(symbols, names, period):
         try: 
             prices[symbol] = {}
             
-            logging.disable(logging.CRITICAL)
             data = download(symbol, period=period, interval="1d", progress=False)
-            logging.disable(logging.NOTSET)
 
             if len(data) > 0:
                 df = pd.DataFrame({
                     "Date": data.index,
-                    "Open": data["Open"],
-                    "High": data["High"],
-                    "Low": data["Low"],
-                    "Close": data["Adj Close"],
-                    "Volume": data["Volume"]
+                    "Open": data[("Open", symbol)],
+                    "High": data[("High", symbol)],
+                    "Low": data[("Low", symbol)],
+                    "Close": data[("Close", symbol)],
+                    "Volume": data[("Volume", symbol)]
                 })
 
                 filename = f"data/raw_data/raw_historical/{names[symbols.index(symbol)]}.csv"
@@ -50,6 +48,7 @@ def get_historical_data(symbols, names, period):
                     
                 else:
                     df.to_csv(filename, index=False)
+                    pass
 
                 prices[symbol] = df.to_dict("list")
                 
@@ -59,7 +58,7 @@ def get_historical_data(symbols, names, period):
                 }
             
             successes += 1 
-                
+
         except Exception as e: 
             write_to_log(f"""Error getting historical data for {symbol}
 Error: {e}
@@ -73,5 +72,8 @@ At: {datetime.datetime.now()}""")
         write_to_log(f"""Something is wrong in historical scraping, the times scraped do not match the number of companies. 
 Scrapes done: {successes + fails}
 Total companies: {len(symbols)}""")
+        
+        if fails > successes: 
+            raise Exception("Something is very wrong with historical scraping")
         
     return prices

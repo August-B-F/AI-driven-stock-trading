@@ -14,12 +14,6 @@ import os
 from components.logging.logging import write_to_log
 from components.misc.progress_bar import print_progress_bar
 
-def write_to_log(text): 
-    print(text)
-    
-def print_progress_bar(iteration, total, decimals = 1, length = 100, fill = "█", description = "Progress: "): 
-    pass
-
 # import plotly.express as px
 # from pyvirtualdisplay import Display
 
@@ -84,6 +78,7 @@ def get_commodity_data(commodities):
     options.add_argument("--page-load-strategy=eager")
     options.add_argument("--blink-settings=imagesEnabled=false")
     options.add_argument("--disable-blink-features=AutomationControlled")
+    options.add_argument("--window-position=-1920,0")
 
     driver = Chrome(service=Service(ChromeDriverManager().install()), options=options)
     

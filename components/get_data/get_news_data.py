@@ -62,6 +62,7 @@ def fetch_article_titles(company_name, period, controller, user_agents, tor_prox
         options.add_argument("--page-load-strategy=eager")
         options.add_argument(f"--user-agent={random_user_agent}")
         options.add_argument(f'--proxy-server={tor_proxy}')
+        options.add_argument("--window-position=-1920,0")
 
         driver = webdriver.Chrome(service=service, options=options)
     else: 

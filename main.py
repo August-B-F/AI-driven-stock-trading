@@ -75,8 +75,8 @@ with open("assets/commodities.json") as file:
 #################
 
 # alpaca API setup, .env does not work 
-ALPACA_KEY = "PK78QKAF1TBDSEAJE1HC"
-ALPACA_SECRET = "UcP8TQGXfp2cxzrZpyCvLJzWt2C0bGTJDq60VLbf"
+ALPACA_KEY = "PKD10M16C6OGGW10V2LP"
+ALPACA_SECRET = "hDYaaplNQdFzB4AdgxpNQUjFhVJRqagiD4IvbDJP"
 ALPACA_ENDPOINT = "https://paper-api.alpaca.markets"
 
 ###################
@@ -98,7 +98,7 @@ Program started at: {datetime.datetime.now()}
         ### webscraping
         get_news_data(company_names, PERIOD)
         get_commodity_data(commodity_names)
-        get_historical_data(company_tickers, company_names, period="1y")
+        get_historical_data(company_tickers, company_names, "1y") 
         
         ### preprocessing 
         json_to_csv() # turning all the json data files to csv for better processing  

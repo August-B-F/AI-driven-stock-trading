@@ -182,7 +182,7 @@ Trading start at: {datetime.datetime.now()}
                 print(symbol, shares, price)
                 print(money)
                 
-                if shares > 0 and shares * price <= money:
+                if shares >= 1 and shares * price <= money:
                     api.submit_order(
                         symbol=symbol,
                         qty=shares,
