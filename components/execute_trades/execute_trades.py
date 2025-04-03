@@ -21,12 +21,12 @@ def execute_trades(predictions, api_key, api_secret,
 Trading start at: {datetime.datetime.now()}
 ===================""")
     
-    if os.path.exists(f"assets/portfolio.json"):
+    try:
         with open('assets/portfolio.json', 'r') as file:
             portfolio = json.load(file)
             file.close()
             
-    else: 
+    except: 
         portfolio = {}
         
     # initialize Alpaca API
@@ -204,7 +204,7 @@ Trading start at: {datetime.datetime.now()}
                         
                     write_to_transaction_log(f"Invested {shares} shares in {symbol} for ~${price * shares} total")
                     
-                    money = float(api.get_account().cash)
+                    money -= shares * price
                     
             # except Exception as e:
             #     write_to_prediction_log(f"Error investing in {symbol}: {e}")

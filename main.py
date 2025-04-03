@@ -39,7 +39,7 @@ TRAILING_STOP_LOSS = 0.010217685163146514  # trailing stop loss percentage
 REBALANCE_THRESHOLD = 0.28232967833124156  # portfolio rebalance threshold
 
 # time settings for ai internals. Changing these will crash the ai 
-PERIOD = 1            # the days it will scrape, can be changed if you want more data 
+PERIOD = 8            # the days it will scrape, can be changed if you want more data 
 PREDICTION_DAYS = 1   # number of days forward it will predict, hardcoded in the ai to be one, DO NOT CHANGE  
 HISTORICAL_DAYS = 20  # the number of data points in the past it predicts with, ie data from the past 20 days for all data points, also hardcoded, DO NOT CHANGE
 TODAYS_DATE = datetime.datetime.now().strftime('%Y-%m-%d')
@@ -75,8 +75,8 @@ with open("assets/commodities.json") as file:
 #################
 
 # alpaca API setup, .env does not work 
-ALPACA_KEY = "PKD10M16C6OGGW10V2LP"
-ALPACA_SECRET = "hDYaaplNQdFzB4AdgxpNQUjFhVJRqagiD4IvbDJP"
+ALPACA_KEY = "PKTE7RBSHKQSYR90XVNE"
+ALPACA_SECRET = "802uNhYRpj5xgjNz2cYvMIUKaBwSlmKncMMoKa6C"
 ALPACA_ENDPOINT = "https://paper-api.alpaca.markets"
 
 ###################
@@ -100,7 +100,7 @@ Program started at: {datetime.datetime.now()}
         get_commodity_data(commodity_names)
         get_historical_data(company_tickers, company_names, "1y") 
         
-        ### preprocessing 
+        # ### preprocessing 
         json_to_csv() # turning all the json data files to csv for better processing  
         price_data, news_data, commodity_1_data, commodity_2_data, commodity_3_data, name_data, rsi_data, macd_data, obv_data = preprocess_data(company_names, commodity_names, company_index, HISTORICAL_DAYS, TODAYS_DATE)
         

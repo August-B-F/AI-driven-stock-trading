@@ -1,5 +1,97 @@
  
 ===================
+Program ended at: 2025-04-03 22:17:50.534639
+===================
+Trading done at: 2025-04-03 22:17:50.533654
+Executing trades start at: 2025-04-03 22:17:49.458836
+Prediction done with 75 predictions at: 2025-04-03 22:17:49.457837
+Model prediction start at: 2025-04-03 22:12:39.248988
+Preprocessing done with 75 successes and 0 fails at: 2025-04-03 22:12:39.248565
+Preprocessing data start at: 2025-04-03 22:12:35.798478
+===================
+Program started at: 2025-04-03 22:12:35.798478
+===================
+Executing trades start at: 2025-04-03 22:08:29.567692
+Prediction done with 75 predictions at: 2025-04-03 22:08:29.566896
+Model prediction start at: 2025-04-03 22:03:01.152859
+Preprocessing done with 75 successes and 0 fails at: 2025-04-03 22:03:01.151893
+Preprocessing data start at: 2025-04-03 22:02:57.939415
+All CVS conversion done at: 2025-04-03 22:02:57.939415
+News data CSV conversion done with 0 fails and 23 successes
+News data CSV conversion done with 0 fails and 75 successes
+Historical data CSV conversion done with 0 fails and 75 successes
+Json to CSV conversion start at: 2025-04-03 22:02:53.235315
+===================
+Program started at: 2025-04-03 22:02:53.234283
+===================
+Preprocessing data start at: 2025-04-03 21:57:35.690045
+All CVS conversion done at: 2025-04-03 21:57:35.689045
+News data CSV conversion done with 0 fails and 23 successes
+News data CSV conversion done with 0 fails and 75 successes
+Historical data CSV conversion done with 0 fails and 75 successes
+Json to CSV conversion start at: 2025-04-03 21:57:31.091817
+Historical scraping done with 0 fails and 75 successes
+Historical scraping start at: 2025-04-03 21:57:17.484789
+Commodity scraping done with 0 fails and 23 successes
+Commodity scraping start at: 2025-04-03 21:56:26.073674
+News scraping done with 75 successes and 0 fails at: 2025-04-03 21:56:21.944793
+News scraping start at: 2025-04-03 15:39:50.714055
+===================
+Program started at: 2025-04-03 15:39:50.714055
+===================
+Executing trades start at: 2025-04-03 15:37:08.507746
+Prediction done with 75 predictions at: 2025-04-03 15:37:08.507746
+Model prediction start at: 2025-04-03 15:31:54.398370
+Preprocessing done with 75 successes and 0 fails at: 2025-04-03 15:31:54.398370
+Preprocessing data start at: 2025-04-03 15:31:50.955825
+===================
+Program started at: 2025-04-03 15:31:50.954825
+===================
+ 
+===================
+Program ended at: 2025-03-26 22:09:52.639424
+===================
+------------------
+A fatal error happened at: 2025-03-26 22:09:52.639424
+Error: Expecting value: line 1 column 1 (char 0)
+------------------
+Executing trades start at: 2025-03-26 22:09:52.638105
+Prediction done with 75 predictions at: 2025-03-26 22:09:52.638105
+Model prediction start at: 2025-03-26 22:04:40.839536
+Preprocessing done with 75 successes and 0 fails at: 2025-03-26 22:04:40.839536
+Preprocessing data start at: 2025-03-26 22:04:37.502070
+===================
+Program started at: 2025-03-26 22:04:37.502070
+===================
+Preprocessing data start at: 2025-03-26 21:54:15.695435
+All CVS conversion done at: 2025-03-26 21:54:15.694435
+News data CSV conversion done with 0 fails and 23 successes
+News data CSV conversion done with 0 fails and 75 successes
+Historical data CSV conversion done with 0 fails and 75 successes
+Json to CSV conversion start at: 2025-03-26 21:54:11.245467
+Historical scraping done with 0 fails and 75 successes
+Historical scraping start at: 2025-03-26 21:53:59.825189
+Commodity scraping done with 0 fails and 23 successes
+Commodity scraping start at: 2025-03-26 21:53:06.985289
+News scraping done with 75 successes and 0 fails at: 2025-03-26 21:53:02.840740
+News scraping start at: 2025-03-26 20:46:10.113416
+===================
+Program started at: 2025-03-26 20:46:10.113416
+===================
+ 
+===================
+Program ended at: 2025-03-26 20:45:50.142156
+===================
+------------------
+A fatal error happened at: 2025-03-26 20:45:50.142156
+Error: [WinError 10061] No connection could be made because the target machine actively refused it
+------------------
+News scraping start at: 2025-03-26 20:45:47.253194
+===================
+Program started at: 2025-03-26 20:45:47.252193
+===================
+ 
+===================
 Program ended at: 2025-03-25 15:57:41.100109
 ===================
 Prediction done with 75 predictions at: 2025-03-25 15:57:41.099109
