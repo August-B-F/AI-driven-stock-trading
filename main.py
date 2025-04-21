@@ -1,4 +1,5 @@
 from keras.models import load_model
+from dotenv import load_dotenv
 import datetime
 import time
 import json
@@ -14,15 +15,23 @@ from components.preprocess.preprocess_data import preprocess_data
 from components.prediction.prediction import make_predictions
 from components.execute_trades.execute_trades import execute_trades
 
-# TODO 
-# Check so that we do not borrow money
-# Test make trade
-# Check if new news scraper data work for ai, and if runs better on title. 4% with title
-# Fix the loging a bit 
-
-# TODO later 
-# Change file system to Linux
-# Activate tor and VPN if needed 
+# <Stock Trading AI Predictor>
+# Copyright (C) 2025 August.B.F
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
+#
+# For commercial use, please contact august.frigo@gmail.com for permission.
 
 ################
 ### settings ###
@@ -75,8 +84,9 @@ with open("assets/commodities.json") as file:
 #################
 
 # alpaca API setup, .env does not work 
-ALPACA_KEY = "PKTE7RBSHKQSYR90XVNE"
-ALPACA_SECRET = "802uNhYRpj5xgjNz2cYvMIUKaBwSlmKncMMoKa6C"
+load_dotenv()
+ALPACA_KEY = os.getenv("ALPACA_KEY")
+ALPACA_SECRET = os.getenv("ALPACA_SECRET")
 ALPACA_ENDPOINT = "https://paper-api.alpaca.markets"
 
 ###################
@@ -129,7 +139,15 @@ Program ended at: {datetime.datetime.now()}
 if __name__ == "__main__": 
     start_time = time.time()
     clear_console()
+
+    print("""
+AI-Driven Stock Trading Program  Copyright (C) 2025 August B. F.
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show w'.
+This is free software, and you are welcome to redistribute it under certain conditions; type `show c' for details.
+""")
     
+    time.sleep(4)
+
     main()
     
     clear_console()
