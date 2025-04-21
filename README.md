@@ -1,10 +1,8 @@
----
-
 # AI-Driven Stock Trading Program 📈
 
 **An AI-powered stock trading system that predicts stock prices and executes trades using web-scraped data and the Alpaca API.**
 
----
+***
 
 ## Overview
 
