@@ -79,48 +79,9 @@ Follow these steps to get the project up and running:
 
 ---
 
-## 📂 Project Structure
-
-```
-├── main.py                 # Main script to run the program
-├── config.py               # Configuration settings (optional, if created)
-├── assets/                 # Model and data files
-│   ├── backtesting/        # Some testing files 
-│   ├── model.h5            # Pre-trained Keras model
-│   ├── companies.json
-│   ├── log.txt
-│   ├── portfolio.json      # Old portfolio, used for trading 
-│   ├── predictions_log.txt
-│   ├── transaction_log.txt
-│   └── commodities.json
-├── components/             # Modular components for scraping, preprocessing, etc.
-│   ├── misc/
-│   ├── logging/trade.log
-│   ├── get_data/
-│   ├── preprocess/
-│   ├── prediction/
-│   └── execute_trades/
-├── LICENSE                 # License file (GPL-3.0)
-└── README.md               # Project documentation
-```
-
----
-
 ## 📜 License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details. For commercial use, please contact the author at [august.frigo@gmail.com](mailto:august.frigo@gmail.com) for permission.
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/your-feature`).
-3. Commit your changes (`git commit -m "Add your feature"`).
-4. Push to the branch (`git push origin feature/your-feature`).
-5. Open a pull request.
 
 ---
 
